@@ -52,7 +52,7 @@ class ReduxDemo extends React.Component {
         <ul>
           {this.props.todos.map(todo => {
             return this.state.show === todo.completed ?
-              <Button onClick={() => this.handleTodo(todo.index)}>{todo.text}</Button> : null
+              <Button key={todo.index} onClick={() => this.handleTodo(todo.index)}>{todo.text}</Button> : null
           })}
         </ul>
       </div>
@@ -61,7 +61,7 @@ class ReduxDemo extends React.Component {
 }
 
 function mapStateToProps(state) {
-  return state;
+  return state.todoApp;
 }
 
 function mapDispatchToProps(dispatch) {

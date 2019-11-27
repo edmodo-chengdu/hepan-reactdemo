@@ -1,0 +1,4 @@
+export default {
+  "START_FETCH": "START_FETCH",
+  "SUCCESS_FETCH": "SUCCESS_FETCH"
+}

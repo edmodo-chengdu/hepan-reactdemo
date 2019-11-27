@@ -1,0 +1,74 @@
+{
+  "asyncDemoUrl":[
+    {
+      "name": "奥尔良鸡翅",
+      "count": 10,
+      "price": 6,
+      "desc": "新鲜出炉的烤翅",
+      "id": 1
+    },
+    {
+      "name": "牛肉煲",
+      "count": 6,
+      "price": 2,
+      "desc": "好吃的牛肉煲",
+      "id": 2
+    },
+    {
+      "name": "薯条",
+      "count": 5,
+      "price": 5,
+      "desc": "薯条",
+      "id": 3
+    },
+    {
+      "name": "汉堡",
+      "count": 0,
+      "price": 6,
+      "desc": "美味",
+      "id": 4
+    },
+    {
+      "name": "可乐",
+      "count": 3,
+      "price": 6,
+      "desc": "冰的",
+      "id": 5
+    },
+    {
+      "name": "炸鸡",
+      "count": 5,
+      "price": 6,
+      "desc": "美味的炸鸡",
+      "id": 6
+    },
+    {
+      "name": "鸡排",
+      "count": 0,
+      "price": 6,
+      "desc": "没有了",
+      "id": 7
+    },
+    {
+      "name": "鸡翅",
+      "count": 10,
+      "price": 6,
+      "desc": "来吃啊",
+      "id": 8
+    },
+    {
+      "name": "土豆泥",
+      "count": 13,
+      "price": 6,
+      "desc": "啦啦啦",
+      "id": 9
+    },
+    {
+      "name": "火腿",
+      "count": 0,
+      "price": 5,
+      "desc": "美味忘不掉",
+      "id": 10
+    }
+  ]
+}

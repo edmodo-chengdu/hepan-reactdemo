@@ -1,4 +1,4 @@
 export default {
   "REDUX_DEMO": "/redux_demo",
-  "HOME": "/home"
+  "ASYNC_DEMO": "/async_demo",
 }
