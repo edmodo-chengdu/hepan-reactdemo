@@ -4,9 +4,8 @@ import {combineReducers} from "redux";
 const {ADD_TODO, SET_VISIBILITY_FILTER, TOGGLE_TODO, SHOW_ALL} = ReduxDemo;
 
 function visibilityFilter(state = SHOW_ALL, action) {
-
   switch (action.type) {
-      case SET_VISIBILITY_FILTER:
+    case SET_VISIBILITY_FILTER:
       return action.filter;
     default:
       return state
@@ -21,7 +20,7 @@ function todos(state = [], action) {
         {
           text: action.text,
           completed: false,
-          index : action.index
+          index: action.index
         }
       ];
     case TOGGLE_TODO:
