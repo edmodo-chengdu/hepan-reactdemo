@@ -1,7 +1,8 @@
 import React from "react"
 import {Button, Input} from "antd";
 import {connect} from "react-redux"
-import {addTodo, toggleTodo} from "../../store/redux_demo/actions";
+import {bindActionCreators} from "redux";
+import * as redux_demo from "../../store/redux_demo/actions";
 
 class ReduxDemo extends React.Component {
   constructor() {
@@ -19,7 +20,7 @@ class ReduxDemo extends React.Component {
   }
 
   handleADD(text) {
-    this.props.addTodo(text);
+    this.props.redux_demos.addTodo(text);
     this.setState({
       text: ""
     })
@@ -35,7 +36,7 @@ class ReduxDemo extends React.Component {
   }
 
   handleTodo(index) {
-    this.props.toggle(index)
+    this.props.redux_demos.toggleTodo(index);
   }
 
   render() {
@@ -66,8 +67,7 @@ function mapStateToProps(state) {
 
 function mapDispatchToProps(dispatch) {
   return {
-    addTodo: text => dispatch(addTodo(text)),
-    toggle: index => dispatch(toggleTodo(index)),
+    "redux_demos": bindActionCreators(redux_demo, dispatch)
   }
 }
 
