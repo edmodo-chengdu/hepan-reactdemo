@@ -1,5 +1,4 @@
 // reselect是用来避免数据计算，优化性能。下面案例中只有当products和percent发生变化时，才会重新去计算结果
-
 const {createSelector} = require('reselect');
 const state = {
   products: [

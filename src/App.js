@@ -5,8 +5,6 @@ import AsyncDemo from "./pages/async_demo/AsyncDemo";
 import {BrowserRouter, Route, Switch} from "react-router-dom"
 import pageUrl from "./constants/pageUrl";
 import Home from "./pages/home/Home";
-import * as s from "./test1"
-console.log(s.default);
 function App() {
   return (
     <div className="App">
